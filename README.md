@@ -28,6 +28,12 @@ Ir para o diretorio raiz do projeto clonado
 cd docker-livro-digital
 ```
 
+Remover diretorio do Livro-de-Inspertores
+
+```
+rmdir Livro-de-Inspertores
+```
+
 Fazer o clone do projeto do Livro Digital <br>
 Link: https://github.com/Alessandro-Franca01/Livro-de-Inspertores
 
