@@ -1,6 +1,6 @@
 # README
 
-# Settup Docker: Livro dos Inspetores
+# Setup Docker: Livro dos Inspetores
 
 Automatização de app para ambiente de desenvolvimento
 
@@ -16,7 +16,7 @@ Primeira versão usando o docker-compose
 
 ### 🔧 Instalação em ambiente de desenvolvimento
 
-Fazer o clone do projeto na usa maquina:
+Fazer o clone desse projeto:
 
 ```
 git clone <repo>
@@ -50,9 +50,9 @@ Caso esteja tudo ok, continue a configuração dentro do projeto laravel do Livr
 
 Veja nesse link: https://github.com/Alessandro-Franca01/Livro-de-Inspertores
 
-## 🛠️ Docker-compose
+## 🛠️ Ferramentas
 
-* [Docker](https://www.docker.com//) - Programa para trabalher com container
+* [Docker & Docker-Compose](https://www.docker.com//) - Programas para trabalhar com containers
 * [Portainer - CE](https://docs.portainer.io/start/install-ce/) - Gerenciador de containres web
 
 ## 📌 Versão
