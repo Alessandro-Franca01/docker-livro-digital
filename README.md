@@ -51,10 +51,17 @@ cd ..
 docker compose up
 ```
 
-Quando terminar verfique se os containers estão rodando com portainer ou no seu terminal.<br>
-Caso esteja tudo ok, continue a configuração dentro do projeto laravel do Livro Digital.
+### Importante:
+Verfique se está tudo ok com os containers, com portainer ou no seu terminal.<br>
+Se deu tudo certo, continue a configuração dentro do projeto laravel do Livro Digital.
 
-Veja nesse link: https://github.com/Alessandro-Franca01/Livro-de-Inspertores
+Link do projeto: https://github.com/Alessandro-Franca01/Livro-de-Inspertores
+
+### Conectado a Aplicação com a API<br>
+Por fim, depois que a API estiver ok, conecte-se com ela:
+```
+docker network connect api-docker-livro-digital_api <nome_container>
+```
 
 ## 🛠️ Ferramentas
 
