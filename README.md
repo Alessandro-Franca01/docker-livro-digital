@@ -28,12 +28,6 @@ Ir para o diretorio raiz do projeto clonado
 cd docker-livro-digital
 ```
 
-Remover diretorio do Livro-de-Inspertores
-
-```
-rmdir Livro-de-Inspertores
-```
-
 Fazer o clone do projeto do Livro Digital <br>
 Link: https://github.com/Alessandro-Franca01/Livro-de-Inspertores
 
@@ -59,9 +53,17 @@ Link do projeto: https://github.com/Alessandro-Franca01/Livro-de-Inspertores
 
 ### Conectado a Aplicação com a API<br>
 Por fim, depois que a API estiver ok, conecte-se com ela:
+
 ```
 docker network connect api-docker-livro-digital_api <nome_container>
 ```
+Altere a variavel ULR_API para:
+
+```
+URL_BASE_API="http://api-dev:8080/"
+```
+
+### Pronto, se ocorreu tudo corretamente vc já pode fazer o login!
 
 ## 🛠️ Ferramentas
 
